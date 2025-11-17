@@ -1,2 +1,3 @@
-# Wireguard-UI
-Wireguard UI
+# wireguard-web-gui
+
+Full solution repository.

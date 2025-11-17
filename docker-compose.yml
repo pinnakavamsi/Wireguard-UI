@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  wg-gui:
+    build: .
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    volumes:
+      - ./app:/app/app
+      - /etc/wireguard:/etc/wireguard
